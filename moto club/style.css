@@ -1,0 +1,257 @@
+body{
+    background-color: #F5DEB3 !important;
+    background-position: 100%;
+    background-size: cover;
+}   
+
+div h3{
+    font-family: 'Arial';
+    color: #8B4513;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+div h2{
+    font-family: 'Arial';
+    font-size: 35px;
+    color: #8B4513;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.backgroundvideo{
+    width: 100%;
+	height: 400px;
+	object-fit: fill;
+    display: flex;
+}
+
+header {
+   background-color: #F4A460; 
+   margin-top: -6px; 
+   overflow: visible; 
+   display: flex;
+   min-height: 150px;
+}
+
+.heading{
+    font-family: 'Arial';
+    font-size: 35px;
+    color: #800000;
+    font-weight: bold;
+    border: 2px solid #F4A460;
+    box-shadow: 3px 3px 3px 3px #8B4513;
+    margin-top: 18px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 50px;
+}
+
+.a{ 
+    font-family: 'Arial';   
+    font-size: 20px;
+    text-decoration: none;
+    color: #800000;
+    font-weight: bold;  
+    border: 2px solid  #F4A460;
+    box-shadow: 3px 3px 3px 3px #8B4513;
+    background-color: #F4A460; 
+    width: 200px;
+    height: 25px;
+    padding: 6px 10px 6px 10px;   
+}
+
+.a:hover{    
+    font-family: 'Arial';
+    font-size: 20px;
+    text-decoration: none;
+    color: #8B4513;
+    font-weight: bold; 
+    background-color: #FFDEAD;  
+    border: 2px solid #FFDEAD;
+    width: 200px;
+    height: 25px;
+    padding: 6px 10px 6px 10px; 
+}
+
+img{
+    width: 80%;
+    border: 2px outset #CD853F;
+    box-shadow: 3px 3px 3px #A0522D;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-clone{
+    font-family: 'Arial';   
+    color: #800000;
+    border: 2px solid  #F4A460;
+    box-shadow: 3px 3px 3px 3px #8B4513;
+    background-color: #F4A460; 
+    padding: 5px;
+    margin:10px;
+    cursor: pointer; 
+}
+.btn-add1{
+    font-family: 'Arial';
+    font-size: 15px;   
+    color: #800000;
+    border: 2px solid  #F4A460;
+    box-shadow: 3px 3px 3px 3px #8B4513;
+    background-color: #F4A460; 
+    margin-top: 15px;
+    margin-bottom: 25px;
+    cursor: pointer; 
+}
+.btn-add2{
+    font-family: 'Arial';
+    font-size: 15px;   
+    color: #800000;
+    border: 2px solid  #F4A460;
+    box-shadow: 3px 3px 3px 3px #8B4513;
+    background-color: #F4A460; 
+    margin-top: 15px;
+    margin-bottom: 25px;
+    cursor: pointer; 
+}
+.btn-delete{
+    font-family: 'Arial';
+    font-size: 15px;   
+    color: #800000;
+    border: 2px solid  #F4A460;
+    box-shadow: 3px 3px 3px 3px #8B4513;
+    background-color: #F4A460; 
+    margin:5px;
+    cursor: pointer; 
+}
+
+.img1{
+    width: 80%;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    border: 2px outset #CD853F;
+    box-shadow: 3px 3px 3px #A0522D;
+}
+#quantity{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#delImage{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text{
+    font-family: 'Arial';
+    color: #8B4513;
+    font-size: 20px; 
+    margin-bottom: 15px;
+    height: 200px;
+    padding: 0%;  
+}
+
+.text1{
+    font-family: 'Arial';
+    color: #8B4513;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.text2{
+    font-family: 'Arial';
+    color: #8B4513;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+.section{
+    min-height: 1000px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    border-bottom: 2px solid #8B4513;
+}
+.forma{   
+	background: #DEB887;
+    border: 2px solid #A0522D;
+    box-shadow: 4px 4px 4px #CD853F;
+	margin-top: 10px;
+    margin-bottom: 30px;
+	padding: 25 0 0;
+	width: 500px;
+	height: 500px;	
+}
+
+
+.forma input[type="text"],
+.forma input[type="password"],
+.forma input[type="date"],
+.forma input[type="email"]
+{
+	border: 2px solid #A0522D;
+    box-shadow: 3px 3px 3px #CD853F;
+	font-family: Arial 14px;	
+    color: #8B4513;
+	margin: 0 0 10px;
+	padding: 20px 12px 16px 40px;
+	width: 400px;
+}
+
+.forma input[type="text"]:focus,
+.forma input[type="password"]:focus,
+.forma input[type="date"]:focus,
+.forma input[type="email"]:focus
+{
+	border: 2px solid #B8860B;
+	outline: none;
+}
+
+.forma input[type="submit"]
+{
+	background: #D2691E;
+	border: 2px solid #A0522D;
+    box-shadow: 3px 3px 3px #CD853F;
+	font: bold 20px Arial;
+	width: 450px;
+	height: 40px;
+	margin:15px;
+}
+
+.forma input[type="submit"]:hover
+{
+	background: #B8860B;
+}
+
+.forma input[type="submit"]
+{
+	color: #800000;
+}
+
+span
+{
+    font-family: 'Arial';
+	color: #8B4513;
+}
+
+form h2{
+    font-weight: bold;
+}
+
+@media(max-width: 391px){
+    img
+    {
+        width: 35%;
+    }
+    .img1
+    {
+        width: 35%;  
+    }
+}
+
+
+
+
